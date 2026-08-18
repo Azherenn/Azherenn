@@ -1,37 +1,70 @@
-<h2 align="center">Hi 👋! My name is Magno and I'm a Brazilian.</h2>
+## Header
+Hi, I'm **Magno (Azherenn)**. A software engineering and telecommunications enthusiast focused on low-level system design, automation workflows, and network security.
 
-###
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=Azherenn&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/hero?username=Azherenn&theme=neon" alt="Azherenn hero section" />
+  </picture>
+</p>
 
-###
+## About Me
+* 💻 **Low-Level Engineering:** Strong foundation in **pure C**, developing terminal-based systems, custom file parsers, and explicit dynamic memory management.
+* 🤖 **Automation & Applied AI:** Building workflow automations in **Python**, integrating local LLM pipelines and system-level scripts.
+* 🌐 **Networks & Telecom Background:** Technical foundation in telecommunications, optical link planning, and ongoing exploration into network scanning and security concepts.
+* 🎯 **Goal:** Designing robust, high-performance software with clean architecture and maintainable codebases.
 
-<img align="right" height="150" src="https://i.pinimg.com/1200x/ee/0c/d7/ee0cd75e74efb806dcf20a7dd88dbc28.jpg"  />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/about?username=Azherenn&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/about?username=Azherenn&theme=neon" alt="Azherenn about section" />
+  </picture>
+</p>
 
-###
+## Skills
+* **Languages:** C, Python, JavaScript, TypeScript
+* **Systems & Foundations:** Data Structures, Dynamic Memory Management, POSIX/Terminal Control, File I/O Parsing
+* **Tooling & Environments:** Linux/Bash, Git, GitHub Actions, Virtual Environments
+* **Domains:** Telecommunications, Network Fundamentals, Security Research, CLI Architecture
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="35" alt="c logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="35" alt="linux logo"  />
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=Azherenn&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stack?username=Azherenn&theme=neon" alt="Azherenn stack section" />
+  </picture>
+</p>
 
-###
+## GitHub Stats
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=Azherenn&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stats?username=Azherenn&theme=neon" alt="Azherenn stats section" />
+  </picture>
+</p>
 
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-</div>
+## Projects
+🛡️ C-IDS / IPS Network Security Engine: Intrusion detection & prevention system developed in pure C, implementing low-level packet sniffing, signature-based threat detection, payload inspection, and automated network traffic mitigation.
+🛰️ Optical Link Budget & Telecom Analysis Suite: Computational engineering models designed to calculate fiber attenuation, splice/connector losses, and EDFA amplifier gain parameters across long-haul ITU-T optical links.
+🎯 CLI Game Engine & Memory-Safe C Applications: Native terminal application built from scratch featuring custom binary/text database parsing, pointer-driven data structures, dynamic ASCII rendering, and strict memory safety.
+🤖 Autonomous Workflows & Local LLM Integration: Automated data extraction and processing pipelines in Python, running fully local LLM inference engines to analyze job feeds, telemetry data, and system logs.
 
-###
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=Azherenn&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/projects?username=Azherenn&theme=neon" alt="Azherenn projects section" />
+  </picture>
+</p>
 
-<p align="left">
-Hi there! 👋 I'm Magno.
+## Connect
+Let's build reliable software and explore new engineering frontiers together.
 
-I'm a Brazilian technology student, focused on low-level programming and understanding how computers really work.
+* **GitHub:** [github.com/Azherenn](https://github.com/Azherenn)
+* **LinkedIn:** [Magno Roris](https://www.linkedin.com/in/magno-ferreira-ti/)
+* **Location:** Rio de Janeiro, Brazil
 
-My goal is to build a solid career in the C language, specializing in the areas that fascinate me the most: Operating Systems, Compilers, and High-Performance Computing (HPC).
-
-Currently, I'm building my foundational knowledge with CC50 (Harvard's CS50) and documenting my learning journey here on GitHub.
-
-###
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=Azherenn&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/social?username=Azherenn&theme=neon" alt="Azherenn social section" />
+  </picture>
+</p>
