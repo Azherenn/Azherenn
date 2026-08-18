@@ -43,10 +43,9 @@ Hi, I'm **Magno (Azherenn)**. A software engineering and telecommunications enth
 </p>
 
 ## Projects
-🛡️ C-IDS / IPS Network Security Engine: Intrusion detection & prevention system developed in pure C, implementing low-level packet sniffing, signature-based threat detection, payload inspection, and automated network traffic mitigation.
-🛰️ Optical Link Budget & Telecom Analysis Suite: Computational engineering models designed to calculate fiber attenuation, splice/connector losses, and EDFA amplifier gain parameters across long-haul ITU-T optical links.
-🎯 CLI Game Engine & Memory-Safe C Applications: Native terminal application built from scratch featuring custom binary/text database parsing, pointer-driven data structures, dynamic ASCII rendering, and strict memory safety.
-🤖 Autonomous Workflows & Local LLM Integration: Automated data extraction and processing pipelines in Python, running fully local LLM inference engines to analyze job feeds, telemetry data, and system logs.
+* 🛡️ C-IDS / IPS Network Security Engine: Intrusion detection & prevention system developed in pure C, implementing low-level packet sniffing, signature-based threat detection, payload inspection, and automated network traffic mitigation.
+* 🎯 Hangman Game: Native terminal application built from scratch featuring custom binary/text database parsing, pointer-driven data structures, dynamic ASCII rendering, and strict memory safety.
+* 🤖 Autonomous Workflows & Local LLM Integration: Automated data extraction and processing pipelines in Python, running fully local LLM inference engines to analyze job feeds, telemetry data, and system logs.
 
 <p align="center">
   <picture>
