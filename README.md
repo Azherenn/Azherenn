@@ -25,18 +25,20 @@
 typedef struct {
     const char *nome;
     const char *base;
+    const char *formacao;
     const char *foco;
-    const char *cursando;
+    const char *estudando;
     const char *aberto_a;
 } Magno;
 
 int main(void) {
     Magno eu = {
-        .nome     = "Magno (Azherenn)",
-        .base     = "Rio de Janeiro, RJ",
-        .foco     = "C, redes e segurança defensiva",
-        .cursando = "Engenharia de Software (2026-2030)",
-        .aberto_a = "estágio / Jovem Aprendiz em TI e cibersegurança",
+        .nome      = "Magno (Azherenn)",
+        .base      = "Rio de Janeiro, RJ",
+        .formacao  = "Técnico em Informática e Telecom + Engenharia de Software",
+        .foco      = "C, redes e segurança defensiva",
+        .estudando = "ponteiros, tráfego de rede e IA generativa",
+        .aberto_a  = "estágio / Jovem Aprendiz em TI e cibersegurança",
     };
 
     printf("Olá, mundo! Eu sou o %s.\n", eu.nome);
@@ -44,22 +46,24 @@ int main(void) {
 }
 ```
 
-Sou técnico em **Informática** e em **Telecomunicações** (FAETEC) e estudo **Engenharia de Software**. Gosto de entender o que acontece por baixo das abstrações: pacotes na rede, memória, sockets, sinais em fibra óptica. Hoje coloco isso em prática em projetos de segurança defensiva e de desempenho.
+Minha história começou na **camada física**: no técnico de Telecom eu calculava perdas de sinal em fibra óptica. Depois fui subindo, para redes, programação e segurança. Hoje o que me move é entender **o que acontece por baixo das abstrações**, desde o sinal no cabo até o pacote que chega ao servidor, e usar isso para **defender redes**.
 
 ## 📊 Em números
 
 | | |
-|:---:|:---:|
-| **1 milhão+** | registros processados no projeto Python + C |
-| **~20x** | ganho de desempenho sobre Pandas/NumPy |
-| **Top 100** | 12ª Maratona CiberEducação Cisco (CTF) |
-| **100+** | relatórios padronizados que consolidei como Jovem Aprendiz |
+|:---:|:---|
+| **1 milhão+** | de registros de vendas processados no [Sales Performance Analyzer](https://github.com/Azherenn/High-Performance-Data-Processing) (Python + C) |
+| **~20x** | mais rápido que Pandas no cálculo estatístico desse mesmo projeto |
+| **Top 100** | na 12ª Maratona CiberEducação Cisco (CTF) |
+| **100+** | relatórios padronizados que consolidei como Jovem Aprendiz na Atento |
 
 ## 🚀 Projetos
 
 ### 🛡️ [c-ids](https://github.com/Azherenn/c-ids) · IDS/IPS em C `em desenvolvimento`
 
-Sistema de detecção e prevenção de intrusão feito do zero em C, para estudar redes, captura de pacotes e detecção de tráfego suspeito.
+Sistema de detecção e prevenção de intrusão feito do zero em C, para entender de verdade como captura de pacotes e detecção de tráfego suspeito funcionam, em vez de usar o Snort ou o Suricata como caixa-preta. É o **primeiro de cinco projetos** do meu roadmap blue team: IDS → Honeypot → Integração → Análise de TLS → EDR com eBPF.
+
+Hoje estou nos fundamentos que vêm antes do parser de pacotes: manipulação de bytes, layout de memória e aritmética de ponteiros.
 
 **Stack:** C · raw sockets · iptables · MySQL · GCC/Make · Linux
 
@@ -77,26 +81,26 @@ flowchart LR
 
 </details>
 
-### ⚡ [High-Performance-Data-Processing](https://github.com/Azherenn/High-Performance-Data-Processing) · Python + C
+### ⚡ [Sales Performance Analyzer](https://github.com/Azherenn/High-Performance-Data-Processing) · Python + C
 
-Sistema em três camadas que processa e analisa mais de 1 milhão de registros. Python orquestra, o motor de cálculo em C é compilado como *shared library* e os dados ficam em SQLite. Resultado: cerca de **20x** mais rápido que a implementação nativa com Pandas/NumPy.
+Feito em dupla com o Ricardo. Python é ótimo para gerenciar dados e lento em matemática pesada, então a conta fica numa biblioteca compartilhada em C, chamada pelo Python via `ctypes`. Processa **1 milhão de vendas** guardadas em SQLite e calcula total, média e desvio padrão em **1,6 ms**, contra 33,7 ms do Pandas (**~20x**).
 
-**Stack:** Python · C · SQLite · Pandas · NumPy
+**Stack:** Python · C · SQLite · ctypes · Pandas · NumPy
 
 <details>
 <summary><b>Arquitetura</b></summary>
 
 ```mermaid
-flowchart TB
-    P["Python<br/>orquestração"] --> C["Motor de cálculo em C<br/>shared library"]
-    P --> D[("SQLite<br/>dados")]
+flowchart LR
+    D[("SQLite<br/>1M de vendas")] -->|extrai| P["Python<br/>orquestra e mede"]
+    P -->|ponteiros via ctypes| C["Biblioteca em C<br/>total, média, desvio padrão"]
 ```
 
 </details>
 
 ### 🎮 [Hangman-Game](https://github.com/Azherenn/Hangman-Game) · Jogo da forca em C
 
-Jogo de linha de comando feito do zero para praticar os fundamentos da linguagem e criar uma experiência interativa no terminal.
+Jogo de terminal que roda em Windows e Linux (detecta o sistema com `#ifdef`), lê palavras, dicas e níveis de um arquivo externo e desenha a forca em ASCII. Foi onde pratiquei structs, ponteiros e leitura de arquivos.
 
 **Stack:** C
 
@@ -155,28 +159,24 @@ timeline
     2030 : Previsão de formatura
 ```
 
-## 🎓 Formação e certificações
+## 🏆 Certificações e conquistas
 
-| | |
-|---|---|
-| 🎓 **Engenharia de Software** | Gran Faculdade · 2026 a 2030 (previsão) |
-| 📡 **Técnico em Telecomunicações** | FAETEC, Escola Técnica Ferreira Viana · 2024 a 2025 |
-| 💻 **Técnico em Informática** | FAETEC, Escola Técnica Rezende de Rammel · 2020 a 2023 |
-| 🔐 **CCEP** | Certified Cybersecurity Educator Professional, Red Team Leaders · 04/2026 |
-| 🛡️ **Cisco CyberOps Associate** | Curso concluído · 06/2026 (e curso Cisco Ethical Hacker) |
-| 🏆 **Maratona CiberEducação Cisco** | 12ª edição, CTF · Top 100 individual |
-| ⚙️ **NVIDIA** | Lab de inferência de IA em GPU com PyTorch (Tesla T4) · 11/2025 |
-| 🤖 **Alura** | Trilha de IA Generativa · 20 de 30 cursos |
+- 🔐 **CCEP**: Certified Cybersecurity Educator Professional, Red Team Leaders (04/2026)
+- 🛡️ **Cisco CyberOps Associate** (curso concluído, 06/2026) e **Cisco Ethical Hacker** (curso)
+- 🥇 **Top 100** individual na 12ª Maratona CiberEducação Cisco (CTF)
 
 ## 📚 Estudando agora
 
-- C com foco em resolução de problemas e estruturas de dados
-- Evolução do **c-ids**
-- Python, Ruby e IA generativa (LangChain/RAG, Hugging Face)
+- 💻 **C**: ponteiros, memória dinâmica e estruturas de dados, com exercícios todos os dias
+- 🛡️ **c-ids**: fundamentos de bytes e memória antes do parser de pacotes
+- 🛰️ **Cisco**: próximo passo da trilha, do CyberOps Associate rumo ao Professional
+- 🤖 **IA generativa** (trilha da Alura): `▰▰▰▰▰▰▱▱▱▱` 20 de 30 cursos, com LangChain/RAG, Hugging Face e n8n
+- ⚙️ **Inferência em GPU**: lab da NVIDIA com PyTorch (Tesla T4) concluído em 11/2025
+- 💎 **Ruby**: primeiros passos
 
 ## 📫 Vamos conversar?
 
-Estou buscando estágio ou vaga de Jovem Aprendiz em TI, com foco em cibersegurança.
+Estou buscando estágio ou vaga de Jovem Aprendiz em TI, com foco em cibersegurança. Se você trabalha com redes, segurança defensiva ou C, vou gostar de trocar uma ideia.
 
 <div align="center">
 
